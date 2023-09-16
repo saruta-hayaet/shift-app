@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background-color: white;
+}
+.table {
+    width: 80%;
+    margin: 0 auto;
+}
+.button {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.table-wrap{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: white;
+}
+.table-wrap-inner{
+    padding: 30px;
+    box-sizing: content-box;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+.table-main{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+.t-head-tr{
+    display: flex;
+    /* gap: 15px; */
+    justify-content: space-between;
+}
+.tbody{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tbody-tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.tbody-tr-td{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.common-width{
+    width: 200px;
+}
+.project{
+    display: flex;
+    gap: 10px;
+}
+.link{
+    margin: 10px 0;
+    margin-left: 60px;
+    width: 150px;
+}
+.s-c-left{
+    width: 100px!important;
+}
+.s-c-select{
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.p-s-form{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p-s-table{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.p-s-thead{
+    width: 90%;
+
+}
+.p-s-thead-inner{
+    display: flex;
+}
+.p-s-body{
+    display: flex;
+}
+.txt-left{
+    width: 150px;
+}
+.p-s-body-wrap{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.p-s-back{
+    width: fit-content;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(134, 223, 255);
+}
+.csv-button{
+    width: fit-content;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #45e08b;
+}
+
+
+
+
+
